@@ -1,0 +1,71 @@
+/* albert.j.papadosifakis@gmail.com */
+/* Responsive CSS template for most devices */
+
+
+/* Generic SmartPhones ( Flip Landscape / Portrait ) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+/* Insert your CSS here */
+
+}
+
+/* SmartPhone (LandScape mode)   */
+@media only screen 
+and (min-width : 321px) {
+
+/* Insert your CSS here */
+
+}
+
+/* Smartphones (portrait mode)  */
+@media only screen 
+and (max-width : 320px) {
+/* Insert your CSS here */
+}
+
+/* iPhone 5/4/4s ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Insert your CSS here */
+}
+
+/* IPAD - Landscape & Portrait mode */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Insert your CSS here */
+}
+
+/* IPAD LandScape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Insert your CSS here */
+}
+
+/* IPAD Portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Insert your CSS here */
+}
+
+/* General Desktop / Laptop / Win-tablets */
+@media only screen 
+and (min-width : 1224px) {
+/* Insert your CSS here */
+}
+
+/* HD plus monitors ( 4k / 2048 / 1980 + ) */
+@media only screen 
+and (min-width : 1824px) {
+/* Insert your CSS here */
+}
+
+/*STMS*/
+
