@@ -55,6 +55,14 @@ and (orientation : portrait) {
 /* Insert your CSS here */
 }
 
+/* IPAD Pro */
+@media only screen 
+and (min-device-width : 2048px) 
+and (max-device-width : 2732px) 
+and (orientation : portrait) {
+/* Insert your CSS here */
+}
+
 /* General Desktop / Laptop / Win-tablets */
 @media only screen 
 and (min-width : 1224px) {
