@@ -1,79 +1,101 @@
-/* albert.j.papadosifakis@gmail.com */
-/* Responsive CSS template for most devices */
+/* ==========================================================================
+   Responsive CSS Template — Mobile-First Breakpoints
+   Author: albert.j.papadosifakis@gmail.com
+   Updated: 2026
+
+   Strategy: Mobile-first — base styles apply to all screens,
+   then progressively enhance for larger viewports using min-width.
+   ========================================================================== */
 
 
-/* Generic SmartPhones ( Flip Landscape / Portrait ) */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+/* ==========================================================================
+   Base Styles (Mobile-first — applies to all screen sizes)
+   ========================================================================== */
 
-/* Insert your CSS here */
+/* Insert your base/mobile CSS here */
 
+
+/* ==========================================================================
+   Breakpoints (min-width, mobile-first)
+   ========================================================================== */
+
+/* Small — Large phones, landscape (≥ 480px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 480px) {
+  /* Insert your CSS here */
 }
 
-/* SmartPhone (LandScape mode)   */
-@media only screen 
-and (min-width : 321px) {
-
-/* Insert your CSS here */
-
+/* Medium — Tablets, portrait (≥ 768px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 768px) {
+  /* Insert your CSS here */
 }
 
-/* Smartphones (portrait mode)  */
-@media only screen 
-and (max-width : 320px) {
-/* Insert your CSS here */
+/* Large — Tablets landscape, small laptops (≥ 1024px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  /* Insert your CSS here */
 }
 
-/* iPhone 5/4/4s ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Insert your CSS here */
+/* XL — Desktops (≥ 1280px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 1280px) {
+  /* Insert your CSS here */
 }
 
-/* IPAD - Landscape & Portrait mode */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Insert your CSS here */
+/* 2XL — Large desktops, high-res monitors (≥ 1536px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 1536px) {
+  /* Insert your CSS here */
 }
 
-/* IPAD LandScape */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Insert your CSS here */
+
+/* ==========================================================================
+   High-DPI / Retina Displays
+   ========================================================================== */
+
+@media (min-resolution: 2dppx) {
+  /* Insert high-DPI asset swaps or adjustments here */
 }
 
-/* IPAD Portrait */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Insert your CSS here */
+
+/* ==========================================================================
+   Orientation Queries (use sparingly — prefer width-based breakpoints)
+   ========================================================================== */
+
+@media (orientation: portrait) {
+  /* Insert portrait-specific overrides here */
 }
 
-/* IPAD Pro */
-@media only screen 
-and (min-device-width : 2048px) 
-and (max-device-width : 2732px) 
-and (orientation : portrait) {
-/* Insert your CSS here */
+@media (orientation: landscape) {
+  /* Insert landscape-specific overrides here */
 }
 
-/* General Desktop / Laptop / Win-tablets */
-@media only screen 
-and (min-width : 1224px) {
-/* Insert your CSS here */
+
+/* ==========================================================================
+   User Preference Queries
+   ========================================================================== */
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  /* Insert dark theme styles here */
 }
 
-/* HD plus monitors ( 4k / 2048 / 1980 + ) */
-@media only screen 
-and (min-width : 1824px) {
-/* Insert your CSS here */
+/* Reduced motion — respect users who prefer less animation */
+@media (prefers-reduced-motion: reduce) {
+  /* Disable or tone down animations and transitions */
 }
 
-/*STMS*/
+/* High contrast */
+@media (prefers-contrast: high) {
+  /* Increase borders, contrast, and visual weight */
+}
 
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+
+@media print {
+  /* Insert print-friendly styles here */
+}
